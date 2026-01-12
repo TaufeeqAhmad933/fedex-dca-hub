@@ -112,8 +112,10 @@ and many more...
 2. Open 3 terminals - Frontend, Backend, SMTP Server
 3. To activate Frontend : 
     3.1 cd frontend
+   
     3.2 npm start
-4. To activate Backend : 
+5. To activate Backend : 
     4.1 cd backend
+   
     4.2 python run.py
-5. *To run the SMTP Server* : python -m smtpd -n -c DebuggingServer localhost:1025
+7. To run the SMTP Server : python -m smtpd -n -c DebuggingServer localhost:1025
